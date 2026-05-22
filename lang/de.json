@@ -1,0 +1,26 @@
+{
+    "main-header": "GeoPlay",
+    "info-text": "GeoPlay ist ein webbasiertes Spiel, mit dem du dein Geografiewissen testen kannst. Es umfasst alle Länder der Welt, wobei sich die Quizfragen auf Flaggen, Hauptstädte, Ländercodes oder andere Merkmale beziehen. Dieses Spiel wurde in erster Linie für Macondo (ein Projekt von HackClub) entwickelt.",
+    "home": "Startseite",
+    "games": "Spiele",
+    "overview": "Übersicht",
+    "changelog": "Änderungen",
+    "contact": "Kontakt",
+    "games-main-header": "Unsere Spiele",
+    "games-info-text": "Derzeit bieten wir drei Hauptspielmodi an. Jeder Modus umfasst alle Länder und kann nach Bedarf angepasst werden. In Zukunft werden möglicherweise weitere Spielmodi hinzukommen.",
+    "games-guess-the-flag-header": "Flaggenraten",
+    "games-guess-the-flag-game-text": "Im Spiel „Flaggenraten“ wird dir eine Flagge angezeigt, welche du dem richtigen Land zuordnen sollst. Du hast die Wahl zwischen mehreren Ländern, von denen eines das richtige für die Flagge ist.",
+    "games-play-button": "Spielen",
+    "games-guess-the-top-level-domain-header": "Top-Level-Domain-raten",
+    "games-guess-the-top-level-domain-text": "In „Top-Level-Domain-raten“ musst du den Ländercode dem richtigen Land zuordnen. Beispielsweise erscheinen solche Codes am Ende einer Webadresse (www.xyz.us).",
+    "games-guess-the-capital-header": "Hauptstädte-raten",
+    "games-guess-the-capital-game-text": "In „Hauptstädte-raten“ musst du auswählen, zu welchem Land die Hauptstadt gehört. Das ganze funktioniert auch umgekehrt, wo du dem Land seine Hauptstadt zuordnen musst.",
+    "games-settings-info-text": "Im Einstellungsmenü kannst du hier optionale Einstellungen für dein Spiel vornehmen. Wenn du Einstellungen änderst, wird dein Punktestand nicht für die Bestenliste gewertet.",
+    "games-settings-setting-option": "Auswahlmöglichkeiten",
+    "games-settings-setting-reveal": "Erscheinungsmodus",
+    "games-settings-setting-reveal-option-instant": "Direkt",
+    "games-settings-setting-reveal-option-block": "Quadrate",
+    "games-settings-setting-reveal-option-blur": "Verschwommen",
+    "games-settings-setting-reveal-option-gray": "Graustufen"
+
+}

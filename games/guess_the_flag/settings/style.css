@@ -32,7 +32,6 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    
 }
 
 .logo-border img {
@@ -98,24 +97,90 @@ body {
     max-width: 2000px;
 }
 
-.worldmap {
-    padding-top: 3rem;
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.information {
-    padding-left: 10rem;
-    padding-right: 10rem;
-}
-
 .main-header { 
     font-weight: 800;
     font-size: 5rem;
 }
 
+.setting-header { 
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0;
+    text-decoration: underline;
+}
+
 .info-text {
     font-size: 2rem;
     font-weight: 600;
+}
+
+.game-header-background {
+    display: inline-block;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 25px rgba(0, 0, 0, 0.262);
+}
+
+.game-settings{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.games-setting-segment {
+    background-color: rgb(197, 197, 197);
+    display: inline-block;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
+.setting-counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.setting-counter-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.setting-counter-button {
+    all: unset;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    transition: transform 0.25s ease;
+}
+
+.setting-counter-button:hover {
+    transform: scale(1.1);
+}
+
+.setting-counter-number {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.reveal-mode-selection {
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: rgb(51, 51, 51);
+    transition: transform 0.15s ease-in;
+}
+
+.reveal-mode-selection:hover {
+    transform: scale(1.1);
 }

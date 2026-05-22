@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoPlay</title>
+    <link rel="stylesheet" href="/games/guess_the_flag/settings/style.css">
+    <script src="/games/guess_the_flag/settings/script.js" defer></script>
+    <link rel="icon" type="image/png" href="/assets/images/logo/logo.png">
+</head>
+
+<body>
+    <div class="top-banner">
+        <div class="inner-banner">
+        <a href="/index.html" class="logo-border">
+            <img src="/assets/images/logo/logo.png" alt="logo">
+        </a>
+            <div class="navigation-links">
+                <a data-lang="home" class="text-border" href="/index.html">Home</a>
+                <a data-lang="games" class="text-border" href="/games/index.html" style="background-color: #82001c; border-color: #82001c; transform: scale(1.2);">Games</a>
+                <a data-lang="overview" class="text-border" href="">Overview</a>
+                <a data-lang="changelog" class="text-border" href="">Changelog</a>
+                <a data-lang="contact" class="text-border" href="">Contact</a>
+            </div>
+            <div>
+                <select id="language-selection" class="language-selection">
+                    <option value="en">English</option>
+                    <option value="de">German</option>
+                </select>
+                <img id="language-selection-icon" class="language-selection-icon" src="/assets/images/language/en.png" alt="flag-icon">
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="information">
+            <div style="padding-top: 1rem;"></div>
+            <div class="game-header-background" style="background-color: rgb(255, 196, 0);">
+                <h1 data-lang="games-guess-the-flag-header" class="main-header" style="padding-left: 2rem;">Guess the flag</h1>
+            </div>
+            <p data-lang="games-settings-info-text" class="info-text">In the settings menu, you can adjust optional settings for your game here. If you change any settings, your score will not be counted toward the leaderboard. </p>
+            <div style="padding-top: 2rem;"></div>
+            <div class="game-settings">
+                <div class="games-setting-segment">
+                    <p data-lang="games-settings-setting-option" class="setting-header">Options</p>
+                    <div class="setting-counter">
+                        <p class="setting-counter-number" id="setting-options-counter-number">3</p>
+                        <div class="setting-counter-buttons">
+                            <button onclick="addOption()" class="setting-counter-button">+</button>
+                            <button onclick="removeOption()" class="setting-counter-button">-</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="games-setting-segment">
+                    <p data-lang="games-settings-setting-reveal" class="setting-header">Reveal mode</p>
+                    <select id="reveal-mode-selection" class="reveal-mode-selection">
+                        <option data-lang="games-settings-setting-reveal-option-instant" value="instant">Instant</option>
+                        <option data-lang="games-settings-setting-reveal-option-block" value="block">Block</option>
+                        <option data-lang="games-settings-setting-reveal-option-blur" value="blur">Blur</option>
+                        <option data-lang="games-settings-setting-reveal-option-gray" value="gray">Gray</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoPlay</title>
+    <link rel="stylesheet" href="/games/style.css">
+    <script src="/games/script.js" defer></script>
+    <link rel="icon" type="image/png" href="/assets/images/logo/logo.png">
+</head>
+
+<body>
+    <div class="top-banner">
+        <div class="inner-banner">
+        <a href="/index.html" class="logo-border">
+            <img src="/assets/images/logo/logo.png" alt="logo">
+        </a>
+            <div class="navigation-links">
+                <a data-lang="home" class="text-border" href="/index.html">Home</a>
+                <a data-lang="games" class="text-border" href="/games/index.html" style="background-color: #82001c; border-color: #82001c; transform: scale(1.2);">Games</a>
+                <a data-lang="overview" class="text-border" href="">Overview</a>
+                <a data-lang="changelog" class="text-border" href="">Changelog</a>
+                <a data-lang="contact" class="text-border" href="">Contact</a>
+            </div>
+            <div>
+                <select id="language-selection" class="language-selection">
+                    <option value="en">English</option>
+                    <option value="de">German</option>
+                </select>
+                <img id="language-selection-icon" class="language-selection-icon" src="/assets/images/language/en.png" alt="flag-icon">
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="information">
+            <h1 data-lang="games-main-header" class="main-header">Our Games</h1>
+            <p data-lang="games-info-text" class="info-text">We currently offer three main game modes. Each mode includes all countries and can be customized as needed. Additional game modes may be added in the future.</p>
+        </div>
+        <div style="background-color: rgba(28, 28, 28, 0.773); height: 3px; width: 85%; margin: 0 auto; margin-top: 1rem; margin-bottom: 4rem;"></div>
+        <div class="games">
+            <div class="guess-the-flag">
+                <div class="game-text">
+                    <h1 data-lang="games-guess-the-flag-header" class="sub-header">Guess the flag</h1>
+                    <p data-lang="games-guess-the-flag-game-text" class="game-text">In the “Guess the Flag” game, you're shown a flag and asked to match it to the correct country. You'll be given a choice of several countries, one of which is the correct one for the flag.</p>
+                    <a data-lang="games-play-button" class="game-play-button" style="background-color: rgb(255, 196, 0); border-color: rgb(255, 196, 0);" href="/games/guess_the_flag/settings/index.html">Play</a>
+                </div>
+                <div class="game-image" style="background-color: rgb(255, 196, 0); margin-left: 2rem;">
+                    <img class="game-image-spain" src="/assets/images/3d_flags/spain.png" alt="flag-spain">
+                    <img class="game-image-great-britain" src="/assets/images/3d_flags/great_britain.png" alt="flag-great_britain">
+                </div>
+            </div>
+            <div style="padding-top: 10rem;"></div>
+            <div class="guess-the-top-level-domain">
+                <div class="game-image" style="background-color: rgb(255, 0, 64); margin-right: 2rem;">
+                    <p class="game-image-text-uk">.de</p>
+                    <!-- Left -->
+                    <p class="game-image-text-other-left" style="padding-left: 2rem; padding-top: 2rem;">.uk</p>
+                    <p class="game-image-text-other-left" style="padding-left: 5rem; padding-top: 5.25rem;">.cx</p>
+                    <p class="game-image-text-other-left" style="padding-left: 2.5rem; padding-top: 9rem;">.in</p>
+                    <p class="game-image-text-other-left" style="padding-left: 1rem; padding-top: 14rem;">.gh</p>
+                    <!-- Right -->
+                    <p class="game-image-text-other-right" style="padding-left: 33rem; padding-top: 1rem;">.pa</p>
+                    <p class="game-image-text-other-right" style="padding-left: 35rem; padding-top: 4rem;">.it</p>
+                    <p class="game-image-text-other-right" style="padding-left: 33.4rem; padding-top: 7.5rem;">.hu</p>
+                    <p class="game-image-text-other-right" style="padding-left: 33.7rem; padding-top: 11rem;">.ca</p>
+                    <p class="game-image-text-other-right" style="padding-left: 31.5rem; padding-top: 15.5rem;">.au</p>
+                </div>
+                <div class="game-text">
+                    <h1 data-lang="games-guess-the-top-level-domain-header" class="sub-header">Guess the Top-Level-Domain</h1>
+                    <p data-lang="games-guess-the-top-level-domain-text" class="game-text">In “Guess the Top-Level-Domain”, you need to match the country code to the correct country. For example, these codes appear at the end of a web address (www.xyz.us).</p>
+                    <a data-lang="games-play-button" class="game-play-button" style="background-color: rgb(255, 0, 64); border-color: rgb(255, 0, 64);" href="">Play</a>
+                </div>
+            </div>
+            <div style="padding-top: 10rem;"></div>
+            <div class="guess-the-capital">
+                <div class="game-text">
+                    <h1 data-lang="games-guess-the-capital-header" class="sub-header">Guess the capital</h1>
+                    <p data-lang="games-guess-the-capital-game-text" class="game-text">In “Guess the Capital,” you have to choose which country a capital city belongs to. It also works the other way around, where you have to match the capital city to its country.</p>
+                    <a data-lang="games-play-button" class="game-play-button" style="background-color: rgb(52, 150, 225); border-color: rgb(52, 150, 225);" href="">Play</a>
+                </div>
+                <div class="game-image" style="background-color: rgb(52, 150, 225); overflow: hidden;">
+                    <img class="game-image-europe-map" src="/assets/images/europemap.png" alt="europemap">
+                    <video class="game-video-location" autoplay loop><source src="/assets/videos/red_marking_location_point.webm"></video>
+                    <p class="game-image-capital-text">Warschau</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

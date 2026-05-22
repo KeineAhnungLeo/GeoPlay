@@ -1,0 +1,7 @@
+Max Options,
+reveal: Instant, Block, Blur, gray
+Infinite, quick view,
+upside down,
+timer, infnite, Speedrun,
+hardcore, hearts, infinite
+Europe, Asia, Africa, South America, North America, all

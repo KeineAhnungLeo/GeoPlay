@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-banner{
+    width: 100%;
+    min-height: 140px;
+    background-color: #b30027;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+.inner-banner{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo-border{
+    width: 130px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.logo-border img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.navigation-links {
+    display: flex;
+    gap: 1.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-border {
+    font-size: 1.75rem;
+    color: white;
+    background-color: #920020;
+    border: 10px solid #920020;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.15s ease-in;
+}
+
+.text-border:hover {
+    transform: scale(1.1);
+    background-color: #82001c;
+    border-color: #82001c;
+}
+
+.language-selection {
+    font-size: 1.8rem;
+    color: white;
+    background-color: #920020;
+    border: 10px solid red;
+    border-radius: 10px;
+    border-color: #920020;
+    transition: transform 0.15s ease-in;
+}
+
+.language-selection:hover {
+    transform: scale(1.1);
+    background-color: #82001c;
+    border-color: #82001c;
+}
+
+.language-selection-icon {
+    width: 32px;
+    height: 32px;
+    padding-left: 0.5rem;
+    transform: translateY(0.25rem);
+    object-fit: contain;
+}
+
+.main-content {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 2000px;
+}
+
+.information {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.main-header { 
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.sub-header { 
+    font-weight: 800;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.info-text {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.games {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.game-text {
+    max-width: 60rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-text a {
+    text-align: center;
+    transition: transform 0.2s ease-in, box-shadow 0.25s ease-in;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0.5rem 25px rgba(0, 0, 0, 0.4);
+}
+
+.game-text a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 25px rgba(0, 0, 0, 0.4);
+}
+
+.game-play-button {
+    font-size: 2rem;
+    font-weight: 800;
+    border: 15px solid;
+    border-radius: 1rem;
+    margin-top: auto;
+    display: inline-block;
+}
+
+.game-image {
+    position: relative;
+    height: 20rem;
+    width: 40rem;
+    min-width: 640px;
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 25px rgba(0, 0, 0, 0.697);
+}
+
+.game-image img {
+    transition: transform 0.25s ease;
+}
+
+.guess-the-flag{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-image-spain {
+    width: 22rem;
+    padding-left: 25rem;
+    padding-top: 2.65rem;
+    position: absolute;
+}
+
+.guess-the-flag:hover .game-image-spain {
+    transform: rotate(8deg) scale(1.1) translateX(20px) translateY(-21px);
+}
+
+.game-image-great-britain {
+    width: 22rem;
+    padding-left: 3rem;
+    padding-top: 2.06rem;
+    position: absolute;
+}
+
+.guess-the-flag:hover .game-image-great-britain {
+    transform: rotate(-8deg) scale(1.1) translateX(20px) translateY(-30.5px);
+}
+
+.guess-the-top-level-domain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-image-text-uk{
+    font-size: 15rem;
+    font-weight: 800;
+    margin-top: auto;
+    text-transform: uppercase;
+    transform: translateY(-1rem) translateX(5rem);
+    transition: transform 0.2s ease-in;
+    position: absolute;
+}
+
+.guess-the-top-level-domain:hover .game-image-text-uk{
+    transform: scale(1.2) translateX(4rem) translateY(-1rem);
+}
+
+.game-image-text-other-left {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: auto;
+    text-transform: uppercase;
+    transition: transform 0.2s ease-in;
+    position: absolute;
+}
+
+.guess-the-top-level-domain:hover .game-image-text-other-left{
+    transform: scale(1.1) translateX(-4.5rem) translateY(-1rem) rotate(-5deg);
+}
+
+.game-image-text-other-right {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: auto;
+    text-transform: uppercase;
+    transition: transform 0.2s ease-in;
+    position: absolute;
+}
+
+.guess-the-top-level-domain:hover .game-image-text-other-right{
+    transform: scale(1.1) translateX(2.5rem) translateY(1rem) rotate(5deg);
+}
+
+.guess-the-capital {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-image-europe-map {
+    width: 32rem;
+    padding-left: 4rem;
+    padding-top: 0rem;
+    transition: transform 0.2s ease-in;
+    position: absolute;
+}
+
+.guess-the-capital:hover .game-image-europe-map {
+    transform: scale(5) translateX(-0.25rem) translateY(-1.5rem);
+}
+
+.game-video-location {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    display: block;
+    padding-left: 14rem;
+    padding-top: 6.3rem;
+    transition: transform 0.2s ease;
+    transform: scale(0);
+}
+
+.guess-the-capital:hover .game-video-location {
+    transform: scale(2);
+}
+
+.game-image-capital-text {
+    position: absolute;
+    z-index: 100;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding-left: 14rem;
+    padding-top: 8.3rem;
+    transition: transform 0.2s ease;
+    transform: scale(0);
+}
+
+.guess-the-capital:hover .game-image-capital-text {
+    transform: scale(1);
+}
